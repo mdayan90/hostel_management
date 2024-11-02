@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mess5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> <!-- Changed height to match_parent -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRoutine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Routine"
+                android:textColor="#FFFFFF"
+                android:fontFamily="serif"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:padding="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
